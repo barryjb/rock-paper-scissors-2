@@ -97,7 +97,7 @@ header > h1 {
     font-family: Asap, sans-serif;
 }
 
- .choices{
+.choices{
      margin-top: 50px;
      text-align: center;
  }
@@ -114,4 +114,21 @@ header > h1 {
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
+}
+
+@media (max-width:700px){
+    .choices{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .choice{
+        margin-top: 30px;
+    }
+
+    #action-message{
+        margin-bottom: 20px;
+    }
+
 }
